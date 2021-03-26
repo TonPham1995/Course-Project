@@ -4,28 +4,29 @@ body {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .container-fluid {
-  padding-right:0;
-  padding-left:0;
-  margin-right:auto;
-  margin-left:auto
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container {
-  padding-right:0;
-  padding-left:0;
-  margin-right:auto;
-  margin-left:auto
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 ul {
-  padding-right:0;
-  padding-left:0;
-  margin-right:auto;
-  margin-left:auto
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .bg-primary {
@@ -33,14 +34,14 @@ ul {
 }
 
 /* Navigation Bar */
-
-
 .top-bar {
   background-color: #6F4E37;
 }
 
 .navigation-bar {
   max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -71,10 +72,7 @@ ul {
   color: #6F4E37;
 }
 
-
-
 /* Article */
-
 .hero {
   max-width: 100%;
 }
@@ -91,8 +89,12 @@ ul {
 
 .introduction {
   margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #FED8B1;
   padding: 2rem;
 }
@@ -108,7 +110,7 @@ ul {
 .drink {
   max-width: 100%;
   margin-top: 2rem;
-  color: #6F4E37 ;
+  color: #6F4E37;
 }
 
 .bg-danger {
@@ -127,7 +129,7 @@ ul {
   max-width: 100%;
   margin-top: 2rem;
   background-color: #e8f4f8;
-  color: #6F4E37 ;
+  color: #6F4E37;
 }
 
 .below-bar {
@@ -135,10 +137,11 @@ ul {
 }
 
 /* Footer */
-
 .contact-icon {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   padding: 10px;
 }
@@ -157,7 +160,6 @@ ul {
 .text2 {
   margin-left: 1.5rem;
   opacity: 0.5;
-
 }
 
 .left-navigation li {
@@ -179,7 +181,7 @@ ul {
   color: black;
 }
 
-.fa-globe-americas, .fa-bars, .fa-cat, .fa-coffee, .fa-dollar-sign, .fa-map-marker-alt{
+.fa-globe-americas, .fa-bars, .fa-cat, .fa-coffee, .fa-dollar-sign, .fa-map-marker-alt {
   color: #6F4E37;
 }
 
@@ -213,12 +215,10 @@ ul {
   body {
     margin: 0 auto;
     background-color: white;
-  } 
+  }
   .drink, .pet {
     text-align: center;
   }
-
-  
   .hero {
     display: table;
   }
@@ -226,16 +226,4 @@ ul {
     text-align: center;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
- 
-
+/*# sourceMappingURL=d&cc_design.css.map */

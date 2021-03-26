@@ -1,0 +1,147 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  ul {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+  }
+  
+  .bg-primary {
+    background-color: #6F4E37 !important;
+  }
+  
+  
+  
+  /* Navigation Bar */
+  
+  .top-bar {
+    background-color: #6F4E37;
+  }
+  
+  .navigation-bar {
+    max-width: 100%;
+    display: flex;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .logo-image {
+    max-width: 100px;
+  }
+  
+  .navbar-nav a {
+    color: #6F4E37;
+    font-family: "Bernard MT Condensed";
+    font-size: xx-large;
+  }
+  
+  .navbar-collapse li a:hover:not(.active) {
+    background-color: #6F4E37;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .location {
+    color: #6F4E37;
+    font-size: medium;
+  }
+  
+  /* Article */
+  
+  body { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMC8yOS8xMiKqq3kAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABHklEQVRIib2Vyw6EIAxFW5idr///Qx9sfG3pLEyJ3tAwi5EmBqRo7vHawiEEERHS6x7MTMxMVv6+z3tPMUYSkfTM/R0fEaG2bbMv+Gc4nZzn+dN4HAcREa3r+hi3bcuu68jLskhVIlW073tWaYlQ9+F9IpqmSfq+fwskhdO/AwmUTJXrOuaRQNeRkOd5lq7rXmS5InmERKoER/QMvUAPlZDHcZRhGN4CSeGY+aHMqgcks5RrHv/eeh455x5KrMq2yHQdibDO6ncG/KZWL7M8xDyS1/MIO0NJqdULLS81X6/X6aR0nqBSJcPeZnlZrzN477NKURn2Nus8sjzmEII0TfMiyxUuxphVWjpJkbx0btUnshRihVv70Bv8ItXq6Asoi/ZiCbU6YgAAAABJRU5ErkJggg==);}
+  .error-template {padding: 40px 15px;text-align: center;}
+  .error-actions {margin-top:15px;margin-bottom:15px;}
+  .error-actions .btn { margin-right:10px; }
+  
+  .below-bar {
+    margin-top: 2rem;
+  }
+  
+  /* Footer */
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            
+  }
+  
+  .contact-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .contact-icon > div {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .text1 {
+    color: #6F4E37;
+    font-family: "Bernard MT Condensed";
+    font-size: xx-large;
+  }
+  
+  .text2 {
+    margin-left: 1.5rem;
+    opacity: 0.5;
+  
+  }
+  
+  .left-navigation li {
+    display: inline;
+  }
+  
+  .left-navigation a {
+    padding: 1.5rem;
+    color: #6F4E37;
+    font-family: "Bernard MT Condensed";
+    font-size: x-large;
+  }
+  
+  .sub-navigation {
+    margin-top: 2rem;
+  }
+  
+  .fa-instagram, .fa-facebook, .fa-twitter {
+    color: black;
+  }
+  
+  .fa-globe-americas, .fa-bars, .fa-cat, .fa-coffee, .fa-dollar-sign, .fa-map-marker-alt {
+    color: #6F4E37;
+  }
+  
+  
+  @media only screen and (max-width: 1000px) {
+    .location {
+      display: none;
+    }
+  }
