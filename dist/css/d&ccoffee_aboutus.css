@@ -1,0 +1,169 @@
+body {
+  margin: 0 auto;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+
+.bg-primary {
+  background-color: #6F4E37 !important;
+}
+
+
+
+/* Navigation Bar */
+
+.top-bar {
+  background-color: #6F4E37;
+}
+
+.navigation-bar {
+  max-width: 100%;
+  display: flex;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo-image {
+  max-width: 100px;
+}
+
+.navbar-nav a {
+  color: #6F4E37;
+  font-family: "Bernard MT Condensed";
+  font-size: xx-large;
+}
+
+.navbar-collapse li a:hover:not(.active) {
+  background-color: #6F4E37;
+  color: white;
+  text-decoration: none;
+}
+
+.location {
+  color: #6F4E37;
+  font-size: medium;
+}
+
+/* Article */
+
+.hero {
+  color: #6F4E37;
+  font-family: "Bernard MT Condensed";
+  font-size: xx-large;
+  margin: 2rem 5% 0 5%;
+}
+
+.middle-bar2 {
+  margin-top: 2rem;
+}
+
+.main-text {
+  margin: 2rem 5% 0 5%;
+  color: #6F4E37;
+  font-size: x-large;
+}
+
+.text2 {
+  font-family: "Bernard MT Condensed";
+  color: grey;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.text3 {
+  font-family: "Bernard MT Condensed";
+  color: #6F4E37;
+  font-size: xx-large;
+}
+
+.text4 {
+  font-size: large;
+}
+
+.below-bar {
+  margin-top: 2rem;
+}
+/* Footer */
+
+.contact-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.contact-icon > div {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.text1 {
+  color: #6F4E37;
+  font-family: "Bernard MT Condensed";
+  font-size: xx-large;
+}
+
+.text5 {
+  margin-left: 1.5rem;
+  opacity: 0.5;
+
+}
+
+.left-navigation li {
+  display: inline;
+}
+
+.left-navigation a {
+  padding: 1.5rem;
+  color: #6F4E37;
+  font-family: "Bernard MT Condensed";
+  font-size: x-large;
+}
+
+.sub-navigation {
+  margin-top: 2rem;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter {
+  color: black;
+}
+
+.fa-globe-americas, .fa-bars, .fa-cat, .fa-coffee, .fa-dollar-sign, .fa-map-marker-alt {
+  color: #6F4E37;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .location {
+    display: none;
+  }
+}
+

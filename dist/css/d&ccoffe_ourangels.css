@@ -1,0 +1,246 @@
+body {
+  margin: 0 auto;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+
+.bg-primary {
+  background-color: #6F4E37 !important;
+}
+
+/* Navigation Bar */
+
+.top-bar {
+  background-color: #6F4E37;
+}
+
+.navigation-bar {
+  max-width: 100%;
+  display: flex;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo-image {
+  max-width: 100px;
+}
+
+.navbar-nav a {
+  color: #6F4E37;
+  font-family: "Bernard MT Condensed";
+  font-size: xx-large;
+}
+
+.navbar-collapse li a:hover:not(.active) {
+  background-color: #6F4E37;
+  color: white;
+  text-decoration: none;
+}
+
+.location {
+  color: #6F4E37;
+  font-size: medium;
+}
+
+/* Article */
+
+.hero {
+  color: #6F4E37;
+  font-family: "Bernard MT Condensed";
+  font-size: xx-large;
+  margin: 2rem 5% 0 5%;
+}
+
+.angels {
+  margin: 2rem 5% 0 5%;
+}
+
+.middle-bar2 {
+  margin-top: 2rem;
+}
+
+.Hot-Coffee, .Ice-Coffee, .Tea {
+  font-size: xx-large;
+}
+
+.img-responsive {
+  width: 100% ;
+  height: 50%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  margin-bottom: 2rem;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: translate(460px, -100px) rotate(180deg);
+  -ms-transform: translate(460px, -100px) rotate(180deg);
+  transform: translate(460px, -100px) rotate(180deg);
+  -webkit-transition: all 0.2s 0.4s ease-in-out;
+  transition: all 0.2s 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  word-break: normal;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.hovereffect:hover a.info {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+
+/* Footer */
+
+.contact-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.contact-icon > div {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.text1 {
+  color: #6F4E37;
+  font-family: "Bernard MT Condensed";
+  font-size: xx-large;
+}
+
+.text2 {
+  margin-left: 1.5rem;
+  opacity: 0.5;
+
+}
+
+.left-navigation li {
+  display: inline;
+}
+
+.left-navigation a {
+  padding: 1.5rem;
+  color: #6F4E37;
+  font-family: "Bernard MT Condensed";
+  font-size: x-large;
+}
+
+.sub-navigation {
+  margin-top: 2rem;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter {
+  color: black;
+}
+
+.fa-globe-americas, .fa-bars, .fa-cat, .fa-coffee, .fa-dollar-sign, .fa-map-marker-alt {
+  color: #6F4E37;
+}
+
+@media only screen and (max-width: 1000px) {
+  .location {
+    display: none;
+  }
+}
