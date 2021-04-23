@@ -1,3 +1,8 @@
+$main-color: #6F4E37;
+$main-margin: 2rem;
+$main-font-family: "Bernard MT Condensed";
+$max-width: 100%;
+
 body {
     margin: 0 auto;
     background-color: white;
@@ -29,18 +34,18 @@ body {
   }
   
   .bg-primary {
-    background-color: #6F4E37 !important;
+    background-color: $main-color !important;
   }
   
   
   
   /* Navigation Bar */
   .top-bar {
-    background-color: #6F4E37;
+    background-color: $main-color;
   }
   
   .navigation-bar {
-    max-width: 100%;
+    max-width: $max-width;
     display: flex;
   }
   
@@ -55,38 +60,38 @@ body {
   }
   
   .navbar-nav a {
-    color: #6F4E37;
-    font-family: "Bernard MT Condensed";
+    color: $main-color;
+    font-family: $main-font-family;
     font-size: xx-large;
   }
   
   .navbar-collapse li a:hover:not(.active) {
-    background-color: #6F4E37;
+    background-color: $main-color;
     color: white;
     text-decoration: none;
   }
   
   .location {
     font-size: medium;
-    color: #6F4E37;
+    color: $main-color;
   }
   
   /* Article */
   
   .hero {
-    color: #6F4E37;
-    font-family: "Bernard MT Condensed";
+    color: $main-color;
+    font-family: $main-font-family;
     font-size: xx-large;
-    margin: 2rem 5% 0 5%;
+    margin: $main-margin 5% 0 5%;
   }
   
   .middle-bar2 {
-    margin-top: 2rem;
+    margin-top: $main-margin;
   }
   
   .main-text {
-    margin: 2rem 5% 0 5%;
-    color: #6F4E37;
+    margin: $main-margin 5% 0 5%;
+    color: $main-color;
     font-size: x-large;
   }
   
@@ -96,8 +101,8 @@ body {
   }
   
   .text3 {
-    font-family: "Bernard MT Condensed";
-    color: #6F4E37;
+    font-family: $main-font-family;
+    color: $main-color;
     font-size: xx-large;
   }
   
@@ -106,16 +111,16 @@ body {
   }
   
   .below-bar {
-    margin-top: 2rem;
+    margin-top: $main-margin;
   }
   
   .second-event, .first-event, .third-event, .fourth-event {
-    margin-top: 2rem;
-    color: #6F4E37;
+    margin-top: $main-margin;
+    color: $main-color;
   }
   
   .youtube-video {
-    width: 100%;
+    width: $max-width;
     height: 450px;
   }
   
@@ -124,7 +129,7 @@ body {
   }
   
   .below-bar {
-    margin-top: 2rem;
+    margin-top: $main-margin;
   }
   /* Footer */
   
@@ -141,8 +146,8 @@ body {
   }
   
   .text1 {
-    color: #6F4E37;
-    font-family: "Bernard MT Condensed";
+    color: $main-color;
+    font-family: $main-font-family;
     font-size: xx-large;
   }
   
@@ -158,13 +163,13 @@ body {
   
   .left-navigation a {
     padding: 1.5rem;
-    color: #6F4E37;
-    font-family: "Bernard MT Condensed";
+    color: $main-color;
+    font-family: $main-font-family;
     font-size: x-large;
   }
   
   .sub-navigation {
-    margin-top: 2rem;
+    margin-top: $main-margin;
   }
   
   .fa-instagram, .fa-facebook, .fa-twitter {
@@ -172,7 +177,7 @@ body {
   }
   
   .fa-globe-americas, .fa-bars, .fa-cat, .fa-coffee, .fa-dollar-sign, .fa-map-marker-alt {
-    color: #6F4E37;
+    color: $main-color;
   }
   
   

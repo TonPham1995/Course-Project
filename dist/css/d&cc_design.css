@@ -45,6 +45,10 @@ ul {
   display: flex;
 }
 
+.nav-item {
+  padding: 1rem;
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -52,7 +56,7 @@ ul {
 }
 
 .logo-image {
-  max-width: 100px;
+  max-width: 150px;
 }
 
 .navbar-nav a {
@@ -211,7 +215,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   body {
     margin: 0 auto;
     background-color: white;

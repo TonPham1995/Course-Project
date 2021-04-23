@@ -38,6 +38,10 @@ ul {
   background-color: #6F4E37;
 }
 
+.nav-item {
+  padding: 1rem;
+}
+
 .navigation-bar {
   max-width: 100%;
   display: -webkit-box;
@@ -52,7 +56,7 @@ ul {
 }
 
 .logo-image {
-  max-width: 100px;
+  max-width: 150px;
 }
 
 .navbar-nav a {
@@ -78,6 +82,10 @@ ul {
   font-family: "Bernard MT Condensed";
   font-size: xx-large;
   margin: 2rem 5% 0 5%;
+}
+
+.break {
+  margin-top: 1rem;
 }
 
 .menu {
